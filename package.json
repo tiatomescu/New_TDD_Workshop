@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test:unit": "jest"
+    "test:unit": "jest",
+    "test": "jest --watchAll"
   },
   "keywords": [],
   "author": "",
