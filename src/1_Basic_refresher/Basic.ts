@@ -1,4 +1,4 @@
-//2) create a function that combines 2 words
+//2) create a function that concatenates/combines 2 words
 //4) create a class that has properties brand of type string and price of type number
 //6) add a honk method to the Car class that returns the string 'honk'.
 //8) add a title method to the Car class that takes a name argument and returns the string 'my name is <name> and my brand is <brand>'
@@ -12,3 +12,4 @@
 //  "title": "delectus aut autem",
 //  "completed": false
 // }
+//14 note:  axios returns data in { data: } key.
