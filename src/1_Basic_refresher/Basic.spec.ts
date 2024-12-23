@@ -1,3 +1,4 @@
+//0) Review package.json basics. 
 //1) Write a test for a function that concatonates two strings.
 //3) Create a car class with properties brand of type string and price of type number
 //5) Add a method to the car class called honk that returns the string 'honk'
