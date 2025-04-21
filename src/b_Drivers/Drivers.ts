@@ -3,6 +3,15 @@
 // too young is age less than 16
 // too old are ages greater than 85
 // eligible is any ages between 16 and 85
+export const driverStatus = (age: number) => {
+  if (age < 16) {
+    return DriverStatus.TOO_YOUNG;
+  } else if (age > 85) {
+    return DriverStatus.TOO_OLD;
+  } else {
+    return DriverStatus.ELIGIBLE;
+  }
+}
 
 export enum DriverStatus {
   TOO_YOUNG = "too young",
